@@ -80,3 +80,23 @@
     filter: grayscale(65%);
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+
+.ex-10-icon {
+    animation-name: rotate; 
+    animation-duration: 1.0s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
