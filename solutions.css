@@ -68,3 +68,15 @@
     border-radius: 15px;
     filter: grayscale(80%);
 }
+
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    border-radius: 15px;
+    filter: grayscale(65%);
+    transform: scale(1.5);
+}
