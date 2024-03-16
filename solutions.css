@@ -100,3 +100,19 @@
         transform: rotate(360deg);
     }
 }
+
+/* esercizio 11 */
+
+.ex-11-icon {
+    
+}
+
+.ex-11-icon:hover {
+    animation-name: rotate-3-4;
+    animation-duration: 1.5s;
+}
+
+@keyframes rotate-3-4 {
+    0% {rotate: 0deg;}
+    75% {rotate: 270deg;}
+}
